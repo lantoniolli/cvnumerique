@@ -85,4 +85,19 @@ modalCloses.forEach((modalClose) =>{
             modalView.classList.remove('active-modal')
         })
     })
-})
+});
+
+// porfolio js
+
+let swiper = new Swiper('.mySwiper', {
+    cssMode: true,
+    loop:true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable:true,
+    },
+});
