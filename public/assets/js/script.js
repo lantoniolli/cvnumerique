@@ -64,7 +64,7 @@ tabs.forEach(tab =>{
     })
 })
 
-/*================= MODAL =====================*/ 
+/*================= MODALE =====================*/ 
 const modalViews = document.querySelectorAll('.services__modal');
 const modalBtns = document.querySelectorAll('.services__button');
 const modalCloses = document.querySelectorAll('.services__modal-close');
